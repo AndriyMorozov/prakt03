@@ -8,47 +8,79 @@ header {
     background-clip: border-box;
     background-position: 50% 50%;
     background-size: cover;
+
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px
 }
+
 #menu {
     background-color: beige;
 }
+
 main {
     background-color: #ffe890;
 }
+
 footer {
     background-color: rgb(197, 197, 38);
     text-align: center;
     padding: 0%;
     margin: 0%;
+}
+
+#locationInfo {
+    padding: 0%;
+    margin: 0%;
+
+
 
 }
-#locationInfo{
+
+#telephonesInfo {
     padding: 0%;
     margin: 0%;
-  
-    
-    
+    background-color: #ffda36;
+    text-align: center;
+
 }
-#telephonesInfo{
-    padding: 0%;
-    margin: 0%;
-   
-    
-}
+
 ul {
     list-style-type: none;
+
 }
+
 ul li {
-    margin : 0;
+    margin: 0 5px;
     padding: 0;
     display: inline-block;
 }
+
 ul li a {
     display: inline-block;
+    text-decoration: none;
+    color: black
 }
-h1, p, ul {
+
+h1,
+p,
+ul {
     margin: 0;
 }
-header, #menu, main, footer {
+
+header,
+#menu,
+main,
+footer {
     padding: 10px;
+}
+
+span {
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    text-indent: 1.5em;
 }
