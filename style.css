@@ -1,11 +1,19 @@
+html{
+    font-family: Helvetica, Arial, sans-serif;
+    font:italic 20px;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
 header {
     height: 150px;
     line-height: 150px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(194, 107, 21);
 }
 #menu {
-    background-color: beige;
+    background: linear-gradient(blue, pink);
 }
 main {
     background-color: #ffe890;
@@ -15,18 +23,40 @@ footer {
 }
 ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
 }
 ul li {
-    margin : 0;
+    margin : 5px 0;
     padding: 0;
     display: inline-block;
+    text-align: center;
 }
 ul li a {
     display: inline-block;
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-size: 1.3rem;
 }
 h1, p, ul {
     margin: 0;
+    padding: 0;
 }
 header, #menu, main, footer {
     padding: 10px;
+}
+header h1{
+    color:blue;
+    text-transform: uppercase;
+
+}
+main h1,footer h2{
+    text-align: center;
+    font-size: 2rem;
+}
+main p{
+    margin: 30px 0;
+    text-indent: 2rem;
+    font-size: 1.2rem;
 }
