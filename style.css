@@ -1,7 +1,16 @@
+html{
+    font-family: Helvetica, Arial, sans-serif;
+    font:italic 20px;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
 header {
     height: 150px;
     line-height: 150px;
     text-align: center;
+<<<<<<< HEAD
     background-color: aliceblue;
     background-image: url(/img/legacy-hotel-at-img-academy.jpg);
     background-repeat: no-repeat;
@@ -12,10 +21,13 @@ header {
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
     font-size: 30px
+=======
+    background-color: rgb(194, 107, 21);
+>>>>>>> kucherviktor
 }
 
 #menu {
-    background-color: beige;
+    background: linear-gradient(blue, pink);
 }
 
 main {
@@ -47,25 +59,42 @@ footer {
 
 ul {
     list-style-type: none;
+<<<<<<< HEAD
 
+=======
+    display: flex;
+    flex-direction: column;
+>>>>>>> kucherviktor
 }
 
 ul li {
+<<<<<<< HEAD
     margin: 0 5px;
+=======
+    margin : 5px 0;
+>>>>>>> kucherviktor
     padding: 0;
     display: inline-block;
+    text-align: center;
 }
 
 ul li a {
     display: inline-block;
     text-decoration: none;
+<<<<<<< HEAD
     color: black
+=======
+    color:black;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+>>>>>>> kucherviktor
 }
 
 h1,
 p,
 ul {
     margin: 0;
+    padding: 0;
 }
 
 header,
@@ -74,6 +103,7 @@ main,
 footer {
     padding: 10px;
 }
+<<<<<<< HEAD
 
 span {
     font-family: 'Lora', serif;
@@ -83,4 +113,19 @@ span {
 
 p {
     text-indent: 1.5em;
+=======
+header h1{
+    color:blue;
+    text-transform: uppercase;
+
+}
+main h1,footer h2{
+    text-align: center;
+    font-size: 2rem;
+}
+main p{
+    margin: 30px 0;
+    text-indent: 2rem;
+    font-size: 1.2rem;
+>>>>>>> kucherviktor
 }
