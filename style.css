@@ -3,6 +3,9 @@ header {
     line-height: 150px;
     text-align: center;
     background-color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+    font-size: 30px
 }
 #menu {
     background-color: beige;
@@ -12,9 +15,16 @@ main {
 }
 footer {
     background-color: #ffda36;
+    text-align: center;
+    
+}
+footer span{
+    font-family: 'Times New Roman', system-ui;
+    font-size:14px;
 }
 ul {
     list-style-type: none;
+    
 }
 ul li {
     margin : 0;
@@ -23,10 +33,17 @@ ul li {
 }
 ul li a {
     display: inline-block;
+    text-decoration: none;
+    color:black
 }
 h1, p, ul {
     margin: 0;
 }
 header, #menu, main, footer {
     padding: 10px;
+}
+span{
+    font-family: 'Lora', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
 }
