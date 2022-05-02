@@ -3,6 +3,11 @@ header {
     line-height: 150px;
     text-align: center;
     background-color: aliceblue;
+    background-image: url(/img/legacy-hotel-at-img-academy.jpg);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 #menu {
     background-color: beige;
@@ -11,7 +16,24 @@ main {
     background-color: #ffe890;
 }
 footer {
-    background-color: #ffda36;
+    background-color: rgb(197, 197, 38);
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+
+}
+#locationInfo{
+    padding: 0%;
+    margin: 0%;
+  
+    
+    
+}
+#telephonesInfo{
+    padding: 0%;
+    margin: 0%;
+   
+    
 }
 ul {
     list-style-type: none;
