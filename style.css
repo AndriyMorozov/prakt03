@@ -27,7 +27,7 @@ ul {
     
 }
 ul li {
-    margin : 0;
+    margin : 0 5px;
     padding: 0;
     display: inline-block;
 }
@@ -46,4 +46,7 @@ span{
     font-family: 'Lora', serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Roboto Slab', serif;
+}
+p{
+    text-indent: 1.5em;
 }
