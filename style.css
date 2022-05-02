@@ -1,0 +1,32 @@
+header {
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    background-color: aliceblue;
+}
+#menu {
+    background-color: beige;
+}
+main {
+    background-color: #ffe890;
+}
+footer {
+    background-color: #ffda36;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    margin : 0;
+    padding: 0;
+    display: inline-block;
+}
+ul li a {
+    display: inline-block;
+}
+h1, p, ul {
+    margin: 0;
+}
+header, #menu, main, footer {
+    padding: 10px;
+}
