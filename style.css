@@ -12,21 +12,26 @@ main {
 }
 footer {
     background-color: #ffda36;
+    text-align: center;
 }
 ul {
     list-style-type: none;
 }
 ul li {
-    margin : 0;
+    margin : 0 5px;
     padding: 0;
     display: inline-block;
 }
 ul li a {
     display: inline-block;
+    text-decoration: none;
 }
 h1, p, ul {
     margin: 0;
 }
 header, #menu, main, footer {
     padding: 10px;
+}
+p{
+    text-indent: 1.5em;
 }
